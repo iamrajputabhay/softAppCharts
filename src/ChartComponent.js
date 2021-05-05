@@ -13,7 +13,7 @@ console.log(chart)
     width: "1000", 
     height: "800", 
     dataFormat: "json",
-    days:10, 
+ 
     dataSource: {
  
       chart: {
