@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ChartComponent from './ChartComponent'
+import { ChartContext } from './Components/Form';
 
 ReactDOM.render(
   <React.StrictMode>
+   
     <App />
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
